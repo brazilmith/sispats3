@@ -32,4 +32,7 @@ git push origin main [manda o commit para o github.... aquele -u só usa na prim
 -----------------
 branch é a ramificação do nosso projeto
  -  normalmente usadas para desenvolver uma feature (funcioanlidade), adidiocnar uma pagina nova no projeto, um botão etc
+ Criando uma ramificacao/branch:
+  - git checkout -b ""
+  
 

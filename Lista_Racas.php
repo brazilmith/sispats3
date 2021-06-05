@@ -1,17 +1,17 @@
 <?php
 include('index.php');
-include('Classe_Cor.php');
+include('Classe_racas.php'); //Verificar
 ?>
 <html>
 
 <head>
-	<title>Lista de Cores de Animais</title>
+	<title>Lista de raças de Animais</title>
 </head>
 
 <body>
-	<form name="formulario" action="Incluir_cor.php" method="post">
+	<form name="formulario" action="Incluir_raças.php" method="post">
 		<fieldset style="width:50%; margin:0 auto; margin-top:5%; position:center;">
-			<legend><strong>Lista de Cores de Animais</strong></legend>
+			<legend><strong>Lista de Raças de Animais</strong></legend>
 			<br>
 			<button type="submit" class="btn  btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Adicionar Nova Cor">Cadastrar <span class="badge badge-light">+</span></button>
 			<a href="index.php" class=" btn-outline-dark btn-secondary btn-sm ">Voltar</a><br>
@@ -25,13 +25,13 @@ include('Classe_Cor.php');
 						<tr class="table-active">
 							<!---->
 							<td style="text-align:center; width:3%; ">Código</td>
-							<td style="text-align:center; width:12%;">Cor</td>
+							<td style="text-align:center; width:12%;">Raça</td>
 							<td style="text-align:center; width:8%;">Ações</td>
 						<tr>
 					</thead>
 					<tbody>
 						<?php
-						$cor = new cor();
+						$racas = new cor();//Verificar
 						$result = 0;
 						$lista = $cor->selectAllCor();
 						while ($registro = $lista->fetch_array()) {

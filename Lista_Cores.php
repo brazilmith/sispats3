@@ -33,7 +33,7 @@ include('Classe_Cor.php');
 						<?php
 						$cor = new cor();
 						$result = 0;
-						$lista = $cor->selectAllCor();
+						$lista = $cor->selectAllCor();//vai apresentar a tabela
 						while ($registro = $lista->fetch_array()) {
 							echo '<tr> ';
 							echo '    <td class="table-active" style="text-align:center;">' . $registro["CodigoCor"] . '</td>';
@@ -45,7 +45,7 @@ include('Classe_Cor.php');
 							echo '</tr>';
 							$result++;
 						}
-						echo $result;
+						echo 'Total de cores '.$result;
 						?></tbody>
 				</table>
 			</nav>

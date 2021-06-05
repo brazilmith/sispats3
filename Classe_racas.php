@@ -68,5 +68,3 @@
 			return $lista;
 		}
 	}
-}
-?>

@@ -3,8 +3,8 @@ include_once('funcoes.php');
 
 class cor
 {
-	private string $codigoCor;
-	private string $descricaoCor;
+	private  $codigoCor;
+	private  $descricaoCor;
 
 	public function setCodigoCor($codigo)
 	{

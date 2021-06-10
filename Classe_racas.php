@@ -66,5 +66,5 @@
 			$lista = $conn->query("Select CodigoRacaAnimal, DescricaoRacaAnimal from racaanimal order by DescricaoRacaAnimal;");
 			desconectaBanco($conn);
 			return $lista;
-		}
+		} //criar função selectcount()...
 	}

@@ -8,12 +8,12 @@
 
 		public function setCodigoRacaAnimal($codigo)
 		{
-			$this->$CodigoRacaAnimal = $codigo;
+			$this->CodigoRacaAnimal = $codigo;
 		}
 
 		public function setDescricaoRacaAnimal($nome)
 		{
-			$this->$DescricaoRacaAnimal = $nome;
+			$this->DescricaoRacaAnimal = $nome;
 		}
 
 		public function getCodigoRacaAnimal()

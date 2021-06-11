@@ -41,8 +41,6 @@
 					<a class="dropdown-item" href="lista_cores.php">Cores de Animais</a>
 					<a class="dropdown-item" href="lista_cidades.php">Cidades</a>
 					<a class="dropdown-item" href="lista_uf.php">UF</a>
-
-
 				</div>
 			</li>
 		</ul>

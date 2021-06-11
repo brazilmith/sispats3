@@ -15,8 +15,9 @@
 <body>
 	<img src="img/logo1.jpg" width="12%" height="12%" />
 	<img src="img/nome_loja.png" width="12%" height="12%" />
+
 	<conteiner>
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark dropright">
 			<!-- Brand -->
 			<a class="navbar-brand" href="index.php">DogsCats & Cia</a>
 
@@ -31,11 +32,11 @@
 				</li>
 
 				<!-- Dropdown -->
-				<li class="nav-item dropdown">
+				<li class="nav-item dropdown"  class="btn btn-danger dropdown-toggle">
 					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
 						Cadastro Básico
 					</a>
-					<div class="dropdown-menu">
+					<div class="dropdown-menu btn btn-dark ">
 						<a class="dropdown-item" href="lista_tipos.php">Tipos de Animais</a>
 						<a class="dropdown-item" href="lista_raças.php">Raças de Animais</a>
 						<a class="dropdown-item" href="lista_cores.php">Cores de Animais</a>
@@ -46,7 +47,24 @@
 			</ul>
 		</nav>
 	</conteiner>
+
 	<a href="#" class="badge badge-success">Success</a>
+
+	<!-- 21:9 aspect ratio -->
+	<div>
+		<iframe src="lista_cores.php" frameborder=0></iframe>
+	</div>
+	<script>
+		function bigImg(x) {
+			x.style.height = "64px";
+			x.style.width = "64px";
+		}
+
+		function normalImg(x) {
+			x.style.height = "32px";
+			x.style.width = "32px";
+		}
+	</script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

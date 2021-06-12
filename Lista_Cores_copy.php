@@ -15,7 +15,7 @@ include('menu_principal.php');
 			<legend><strong>Lista de Cores de Animais</strong></legend>
 			<br>
 			<button type="submit" class="btn  btn-outline-dark" data-toggle="tooltip" data-placement="top" title="Adicionar Nova Cor">Cadastrar <span class="badge badge-light">+</span></button>
-			<a href="index_copy.php" class=" btn-outline-dark btn-secondary btn-sm ">Voltar</a><br>
+			<a href="index.php" class=" btn-outline-dark btn-secondary btn-sm ">Voltar</a><br>
 			<br>
 
 

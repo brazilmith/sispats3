@@ -1,5 +1,5 @@
 <?php
-include('index.php');
+include_once('index.php');
 include('Classe_Cor.php');
 ?>
 <html>
